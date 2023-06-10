@@ -182,7 +182,7 @@ EstimarGanancia <- function(x) {
 setwd("~/buckets/b1/")
 
 # cargo los datos
-dataset <- fread("./datasets/dataset_pequeno.csv")
+dataset <- fread("~/datasets/dataset_pequeno.csv")
 # trabajo solo con los datos con clase, es decir 202107
 dataset <- dataset[clase_ternaria != ""]
 
@@ -190,10 +190,10 @@ dataset <- dataset[clase_ternaria != ""]
 # creo la carpeta donde va el experimento
 #  HT  representa  Hiperparameter Tuning
 dir.create("./exp/", showWarnings = FALSE)
-dir.create("./exp/HT3210/", showWarnings = FALSE)
+dir.create("./exp/HT3211/", showWarnings = FALSE)
 
 # Establezco el Working Directory DEL EXPERIMENTO
-setwd("./exp/HT3210/")
+setwd("./exp/HT3211/")
 
 
 archivo_log <- "HT321.txt"
