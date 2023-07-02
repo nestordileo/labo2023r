@@ -23,9 +23,9 @@ dapply <- dataset[foto_mes == 202109]
 # "mtry" = 30, cantidad de variables que evalua para hacer un split
 #  generalmente sqrt(ncol(dtrain))
 param <- list(
-  "num.trees" = 2000, # cantidad de arboles
+  "num.trees" = 3000, # cantidad de arboles
   "mtry" = 50,
-  "min.node.size" = 300, # tamaño minimo de las hojas
+  "min.node.size" = 50, # tamaño minimo de las hojas
   "max.depth" = 15 # 0 significa profundidad infinita
 )
 
@@ -73,7 +73,7 @@ entrega <- as.data.table(list(
 # HT  representa  Hiperparameter Tuning
 dir.create("./exp/", showWarnings = FALSE)
 dir.create("./exp/KA3310/", showWarnings = FALSE)
-archivo_salida <- "./exp/KA3310/KA3310_007.csv"
+archivo_salida <- "./exp/KA3310/KA3310_008.csv"
 
 # genero el archivo para Kaggle
 fwrite(entrega,
