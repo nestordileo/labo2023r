@@ -43,7 +43,7 @@ PARAM$train$testing <- c(202105)
 # 1.0 significa NO undersampling ,  0.1  es quedarse con el 10% de los CONTINUA
 PARAM$train$undersampling <- 0.1
 
-PARAM$train$semilla <- 102191 # cambiar por su propia semilla  !!!
+PARAM$train$semilla <- 999983 # cambiar por su propia semilla  !!!
 
 PARAM$home <- "~/buckets/b1/"
 # FIN Parametros del script
