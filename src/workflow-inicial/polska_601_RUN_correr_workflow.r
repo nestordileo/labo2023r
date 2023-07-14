@@ -17,4 +17,4 @@ source("~/labo2023r/src/workflow-inicial/polskaA_641_TS.r")
 
 # ultimos pasos, muy lentos
 source("~/labo2023r/src/workflow-inicial/polska_651_HT.r")
-source("~/labo2023r/src/workflow-inicial/polska_661_ZZ.r")
+source("~/labo2023r/src/workflow-inicial/polskaA_661_ZZ.r")
