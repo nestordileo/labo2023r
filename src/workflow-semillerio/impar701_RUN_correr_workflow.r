@@ -7,7 +7,7 @@ options(error = function() {
 })
 
 
-# corrida de cada paso del workflow
+# corrida de cada paso del workflow semillerio
 source("~/labo2023r/src/workflow-semillerio/impar711_CA_reparar_dataset.r")
 source("~/labo2023r/src/workflow-semillerio/impar721_DR_corregir_drifting.r")
 source("~/labo2023r/src/workflow-semillerio/impar731_FE_historia.r")
