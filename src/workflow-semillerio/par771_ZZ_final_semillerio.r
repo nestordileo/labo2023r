@@ -20,7 +20,7 @@ require("lightgbm")
 
 # Parametros del script
 PARAM <- list()
-PARAM$experimento <- "ZZ7710par"
+PARAM$experimento <- "ZZ7710par10"
 PARAM$exp_input <- "HT7510par"
 
 # Que modelos quiero, segun su posicion en el ranking
