@@ -32,7 +32,7 @@ PARAM$experimento <- "HT7510polska"
 PARAM$exp_input <- "TS7410polska"
 
 # En caso que se haga cross validation, se usa esta cantidad de folds
-PARAM$lgb_crossvalidation_folds <- 10
+PARAM$lgb_crossvalidation_folds <- 5
 
 PARAM$lgb_semilla <- 999983 # cambiar por su propia semilla
 
