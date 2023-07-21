@@ -6,7 +6,6 @@ options(error = function() {
   stop("exiting after script error")
 })
 
-
 # corrida de cada paso del workflow semillerio
 source("~/labo2023r/src/workflow-semillerio/impar711_CA_reparar_dataset.r")
 source("~/labo2023r/src/workflow-semillerio/impar721_DR_deflacion.r")
