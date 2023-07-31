@@ -24,7 +24,7 @@ require("lightgbm")
 
 # Parametros del script
 PARAM <- list()
-PARAM$experimento <- "HB7810-can16"
+PARAM$experimento <- "HB7810-10"
 
 # el inpput deben ser semillerios
 PARAM$exp_input <- c("ZZ7710-testigo", "ZZ7710par110", "ZZ7710polska120", "ZZ7710polska190"           
