@@ -27,8 +27,7 @@ PARAM <- list()
 PARAM$experimento <- "HB7810-can16"
 
 # el inpput deben ser semillerios
-PARAM$exp_input <- c("ZZ7710imparcan1", "ZZ7710imparcan5", "ZZ7710imparcan10"
-                    
+PARAM$exp_input <- c("ZZ7710-testigo", "ZZ7710par110", "ZZ7710polska120", "ZZ7710polska190"           
                      )
 
 PARAM$kaggle$envios_desde <- 9500L
