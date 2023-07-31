@@ -1,0 +1,18 @@
+PARAM:
+  experimento: HB7810-10
+  exp_input:
+  - ZZ7710par110
+  - ZZ7710polska190
+  - ZZ7710-testigo
+  - ZZ7710polska120
+  kaggle:
+    envios_desde: 9500
+    envios_hasta: 11500
+    envios_salto: 500
+  graficar:
+    envios_hasta: 20000
+    ventana_suavizado: 2001
+  home: C:/Users/Usuario/Downloads/Labo1/hibrid-sem/
+time:
+  start: 20230730 195522
+  end: 20230730 195525
